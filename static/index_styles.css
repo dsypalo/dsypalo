@@ -1,0 +1,31 @@
+
+#sb {
+  	text-align: center;
+  	width: 90%;	
+	}
+input[type=text] {
+	width: 600%;
+  	height: 50px;
+  	padding: 20px 20px;
+  	margin: 20px 0;
+	}
+#sbtable1, #sbtable2, #sbtable3, #sbtable4, #sbtable5, #sbtable6, #sbtable7 {
+	background-color: rgb(220, 219, 220);
+	}
+input[type=submit] {
+	width: 100%;
+	background-color: #a10006
+;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	}
+
+#sbtable1:hover, #sbtable2:hover, #sbtable3:hover, #sbtable4:hover, #sbtable5:hover, #sbtable6:hover, #sbtable7:hover {
+  	background-color: #ffffff
+;
+	}
+	
