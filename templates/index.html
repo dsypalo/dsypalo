@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf-8">
 <title>Регистрация РАНХиГС</title>
-<link rel="stylesheet" href="index_styles.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='index_styles.css') }}">
 </head>
 <body>
 <h1 id="sb">Регистрация РАНХиГС</h1>
@@ -54,7 +54,7 @@
 	<th>Список студентов, подавших документы</th>
 	<tr>
 		<td>
-			<img src="1.png" width="50" height="50">
+			<img src="{{ url_for('static', filename="1.png") }}" width="50" height="50">
 		</td>
 		<td>
 			Сыпало Дмитрий
@@ -62,7 +62,7 @@
 	</tr>
 	<tr>
 		<td>
-			<img src="2.png" width="50" height="50">
+			<img src="{{ url_for('static', filename="2.png") }}" width="50" height="50">
 		</td>
 		<td>
 			Манджиева Виктория
@@ -70,7 +70,7 @@
 	</tr>
 	<tr>
 		<td>
-			<img src="1.png" width="50" height="50">
+			<img src="{{ url_for('static', filename="1.png") }}" width="50" height="50">
 		</td>
 		<td>
 			Никифоров Григорий
@@ -78,7 +78,7 @@
 	</tr>
 	<tr>
 		<td>
-			<img src="1.png" width="50" height="50">
+			<img src="{{ url_for('static', filename="1.png") }}" width="50" height="50">
 		</td>
 		<td>
 			Байда Артем
@@ -86,7 +86,7 @@
 	</tr>
 	<tr>
 		<td>
-			<img src="2.png" width="50" height="50">
+			<img src="{{ url_for('static', filename="2.png") }}" width="50" height="50">
 		</td>
 		<td>
 			Соболькова Екатерина
