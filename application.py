@@ -12,9 +12,6 @@ app.secret_key = 'cC1YCIWOj9GgWspgNEo2'
 @app.route('/index.html')
 def index():
 	return render_template('index.html')
-@app.route('/index.html',methods=['POST'])
-def index():
-    return render_template('index.html')
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0')

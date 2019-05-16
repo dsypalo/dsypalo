@@ -2,7 +2,7 @@
 # The other elements are the same as used in the tutorial
 # format: (user):(password)@(db_identifier).amazonaws.com:3306/(db_name)
 
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://idsypalo:dsypalo@test.cpxok8mdfoyg.us-east-2.rds.amazonaws.com'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://mikle_hook:Mikle_Hook@ranepa.cyizudqrudty.eu-west-1.rds.amazonaws.com:3306/ranepa'
 #https://us-east-2.console.aws.amazon.com/rds/home?region=us-east-2#database:id=test;is-cluster=false
 #idsypalo:Idsypalo@test.cpxok8mdfoyg.us-east-2.rds.amazonaws.com
 
